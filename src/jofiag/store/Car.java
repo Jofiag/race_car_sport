@@ -40,6 +40,6 @@ public class Car {
      */
     @Override
     public String toString() {
-        return name + "de couleur " + color + ". Prix : " + price;
+        return name + " de couleur " + color + ". Prix : " + price + "$";
     }
 }
