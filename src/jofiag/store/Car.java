@@ -34,4 +34,12 @@ public class Car {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    /**
+     * Afficher une voiture.
+     */
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
